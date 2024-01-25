@@ -1,4 +1,6 @@
-FROM nginx:alpine
+FROM nginx:1.25-alpine
 
-COPY default.conf /etc/nginx/conf.d/default.conf
+ENV NGINX_PORT=80
+
+COPY default.conf.template /etc/nginx/templates/default.conf.template
 COPY *.html /etc/nginx/html/
