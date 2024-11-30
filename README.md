@@ -1,5 +1,9 @@
 # ECS Placeholder
 
+**ARCHIVED**
+
+This repo has been replaced by: https://github.com/Catalyst-Consulting-Group/aws-ecs-placeholder
+
 The purpose of this project is to provide a placeholder image with a `/health` HTTP endpoint for use with AWS ECS and Terraform.
 
 Since Terraform is primarily an infrastructure management tool and not an application deployment tool, coupling ECS metadata
